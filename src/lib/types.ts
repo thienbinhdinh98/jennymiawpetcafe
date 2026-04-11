@@ -18,7 +18,7 @@ export interface Location {
 	id: string;
 	name: BilingualText;
 	address: BilingualText;
-	phone: string;
 	hours: BilingualText;
+	mapsUrl: string;
 	mapEmbedUrl: string;
 }

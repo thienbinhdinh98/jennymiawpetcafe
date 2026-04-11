@@ -2,35 +2,35 @@
 	{
 		"id": "location-1",
 		"name": {
-			"vi": "Chi nhánh 1",
-			"en": "Branch 1"
+			"vi": "Jennymiaw Chi nhánh 1",
+			"en": "Jennymiaw Branch 1"
 		},
 		"address": {
-			"vi": "Số X, Phố Y, Quận Hoàn Kiếm, Hà Nội",
-			"en": "No. X, Y Street, Hoan Kiem District, Hanoi"
+			"vi": "Hà Nội",
+			"en": "Hanoi"
 		},
-		"phone": "+84 xxx xxx xxx",
 		"hours": {
 			"vi": "8:00 - 22:00 hàng ngày",
 			"en": "8:00 AM - 10:00 PM daily"
 		},
-		"mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.0968782565936!2d105.8541!3d21.0285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDAyJzEyLjYiTiAxMDXCsDUxJzE0LjgiRQ!5e0!3m2!1svi!2svn!4v1234567890"
+		"mapsUrl": "https://maps.app.goo.gl/S55RuPsrk94R7rW28",
+		"mapEmbedUrl": "https://maps.google.com/maps?q=21.0255174,105.7984388&z=17&output=embed"
 	},
 	{
 		"id": "location-2",
 		"name": {
-			"vi": "Chi nhánh 2",
-			"en": "Branch 2"
+			"vi": "Jennymiaw Chi nhánh 2",
+			"en": "Jennymiaw Branch 2"
 		},
 		"address": {
-			"vi": "Số A, Phố B, Quận Tây Hồ, Hà Nội",
-			"en": "No. A, B Street, Tay Ho District, Hanoi"
+			"vi": "Hà Nội",
+			"en": "Hanoi"
 		},
-		"phone": "+84 xxx xxx xxx",
 		"hours": {
 			"vi": "8:00 - 22:00 hàng ngày",
 			"en": "8:00 AM - 10:00 PM daily"
 		},
-		"mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.5!2d105.8223!3d21.0531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDAzJzExLjIiTiAxMDXCsDQ5JzIwLjMiRQ!5e0!3m2!1svi!2svn!4v1234567890"
+		"mapsUrl": "https://maps.app.goo.gl/gTBiwGj822Z5y5MB7",
+		"mapEmbedUrl": "https://maps.google.com/maps?q=20.9995659,105.8246477&z=17&output=embed"
 	}
 ]
