@@ -1,6 +1,7 @@
 <script lang="ts">
 	import * as m from '$lib/paraglide/messages';
 	import type { Cat } from '$lib/types';
+	import CatDetailModal from '$lib/components/CatDetailModal.svelte';
 
 	interface Props {
 		data: {
@@ -10,6 +11,14 @@
 	}
 
 	let { data }: Props = $props();
+
+	let modalOpen = $state(false);
+	let modalStartIndex = $state(0);
+
+	function openModal(index: number) {
+		modalStartIndex = index;
+		modalOpen = true;
+	}
 </script>
 
 <svelte:head>
@@ -27,20 +36,24 @@
 			<p class="text-text-muted">{m.gallery_subtitle()}</p>
 		</div>
 
-		<!-- Cat grid — CatDetailModal will be wired up in Phase 3 -->
 		<div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-			{#each data.cats as cat}
+			{#each data.cats as cat, i}
 				<button
 					type="button"
-					class="group overflow-hidden rounded-2xl bg-white text-left shadow-sm transition-shadow hover:shadow-md"
-					onclick={() => {
-						/* open modal — Phase 3 */
-					}}
+					onclick={() => openModal(i)}
+					class="group overflow-hidden rounded-2xl bg-white text-left shadow-sm transition-all hover:-translate-y-1 hover:shadow-md"
 				>
-					<div
-						class="flex aspect-square items-center justify-center bg-pink/30 text-6xl transition-transform group-hover:scale-105"
-					>
-						🐱
+					<div class="relative aspect-square overflow-hidden bg-pink/30">
+						{#if cat.avatar}
+							<img
+								src={cat.avatar}
+								alt={cat.name}
+								class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+								loading="lazy"
+							/>
+						{:else}
+							<div class="flex h-full w-full items-center justify-center text-5xl">🐱</div>
+						{/if}
 					</div>
 					<div class="p-3">
 						<p class="font-bold text-text">{cat.name}</p>
@@ -54,3 +67,11 @@
 		</div>
 	</div>
 </section>
+
+{#if modalOpen}
+	<CatDetailModal
+		cats={data.cats}
+		startIndex={modalStartIndex}
+		onClose={() => (modalOpen = false)}
+	/>
+{/if}
