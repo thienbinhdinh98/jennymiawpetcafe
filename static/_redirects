@@ -1,0 +1,3 @@
+# Block admin in production — CMS is local-only via Tailscale
+/admin /404 404
+/admin/* /404 404

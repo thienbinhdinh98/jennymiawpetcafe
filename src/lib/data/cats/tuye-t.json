@@ -1,0 +1,17 @@
+{
+  "name": "Tuyết",
+  "breed": "British Shorthair",
+  "description": {
+    "vi": "Tiết",
+    "en": "Tiết"
+  },
+  "avatar": "/cats/8288d7be-a794-4f23-aab3-7b4236d8454a.webp",
+  "photos": [
+    "/cats/6b0a11ba-ceb2-4b56-aafc-a52250e8fcd5.webp",
+    "/cats/29af6c89-9330-474b-9e26-f33aec790dd3.webp",
+    "/cats/284b83d4-c6e5-4592-b8ea-10c307d5020b.webp",
+    "/cats/9848d091-8c07-4d2e-bb53-aeef96623689.webp"
+  ],
+  "featured": false,
+  "location": "location-1"
+}

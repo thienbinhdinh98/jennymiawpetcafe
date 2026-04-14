@@ -1,12 +1,16 @@
 {
-  "name": "Bông",
-  "breed": "British Shorthair",
+  "name": "Tỏi",
+  "breed": "American Shorthair",
   "description": {
-    "vi": "Bông là chàng mèo điềm tĩnh, quý phái. Bé có bộ lông xám xịt mềm mượt như nhung và đôi mắt tròn xoe màu vàng. Bông thích ngồi quan sát mọi người từ xa nhưng sẽ đến gần nếu bạn mời bé bằng đồ ăn vặt.",
-    "en": "Bông is a calm and dignified cat with luxuriously soft gray fur and big round amber eyes. He prefers observing from a distance but will approach if you offer him a treat."
+    "vi": "Mèo méo meo mèo meo meo Méo meo mèo mèo",
+    "en": "Meow Meow Meow"
   },
-  "avatar": "/cats/bong/avatar.jpg",
-  "photos": [],
-  "featured": true,
-  "location": "location-1"
+  "avatar": "/cats/102f405a-0caa-4710-9be1-c1d30ed62433.webp",
+  "photos": [
+    "/cats/a8f7321d-9e88-4339-8e76-379f3e331f51.jpeg",
+    "/cats/3eb7df49-32a8-400c-b050-004e451358cf.webp",
+    "/cats/9314c7a4-f6db-45f9-9de3-eb056015ec80.webp"
+  ],
+  "featured": false,
+  "location": "location-2"
 }

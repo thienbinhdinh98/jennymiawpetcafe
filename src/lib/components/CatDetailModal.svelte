@@ -31,19 +31,37 @@
 		if (e.key === 'ArrowRight') navigateTo(currentIndex + 1);
 	}
 
-	// Lock background scroll
+	// Lock background scroll — also block touchmove on backdrop (passive: false needed
+	// because Svelte template handlers are passive and e.preventDefault() is ignored)
+	let backdropEl: HTMLDivElement | undefined = $state();
+	let infoEl: HTMLDivElement | undefined = $state();
+
 	onMount(() => { document.body.style.overflow = 'hidden'; });
 	onDestroy(() => { document.body.style.overflow = ''; photoEmbla?.destroy(); });
 
-	// Photo carousel (dots-only, drag disabled so horizontal swipe navigates cats)
+	$effect(() => {
+		if (!backdropEl) return;
+		const blockScroll = (e: TouchEvent) => {
+			// Allow native scroll inside the info/description area
+			if (infoEl && infoEl.contains(e.target as Node)) return;
+			e.preventDefault();
+		};
+		backdropEl.addEventListener('touchmove', blockScroll, { passive: false });
+		return () => backdropEl!.removeEventListener('touchmove', blockScroll);
+	});
+
+	// Photo carousel (arrows + dots, drag disabled so horizontal swipe navigates cats)
 	let photoViewportEl: HTMLDivElement | undefined = $state();
 	let photoEmbla: EmblaCarouselType | null = $state(null);
+	let photoIndex = $state(0);
 
 	async function initPhotoEmbla() {
 		photoEmbla?.destroy();
+		photoIndex = 0;
 		if (!photoViewportEl) return;
 		const { default: EmblaCarousel } = await import('embla-carousel');
 		photoEmbla = EmblaCarousel(photoViewportEl, { loop: false, watchDrag: false });
+		photoEmbla.on('select', () => { photoIndex = photoEmbla!.selectedScrollSnap(); });
 	}
 
 	$effect(() => {
@@ -143,6 +161,7 @@
 <!-- svelte-ignore a11y_click_events_have_key_events -->
 <!-- svelte-ignore a11y_no_static_element_interactions -->
 <div
+	bind:this={backdropEl}
 	class="fixed inset-0 z-50 flex items-center justify-center bg-black/75 backdrop-blur-sm"
 	onclick={(e) => e.target === e.currentTarget && onClose()}
 >
@@ -254,18 +273,53 @@
 						<div bind:this={photoViewportEl} class="overflow-hidden h-full">
 							<div class="flex h-full">
 								{#each allPhotos as photo}
-									<div class="min-w-0 shrink-0 basis-full">
-										<img src={photo} alt={currentCat.name} class="h-64 w-full object-cover sm:h-full" />
+									<div class="min-w-0 shrink-0 basis-full flex items-center justify-center h-64 sm:h-full">
+										<img
+											src={photo}
+											alt={currentCat.name}
+											class="max-h-full max-w-full object-contain"
+											onerror={(e) => {
+												const img = e.currentTarget as HTMLImageElement;
+												img.style.display = 'none';
+												(img.nextElementSibling as HTMLElement).style.display = 'flex';
+											}}
+										/>
+										<div class="hidden h-full w-full items-center justify-center text-5xl text-text-muted/30">📷</div>
 									</div>
 								{/each}
 							</div>
 						</div>
 						{#if allPhotos.length > 1}
+							<!-- Prev photo arrow -->
+							{#if photoIndex > 0}
+								<button
+									onclick={() => photoEmbla?.scrollPrev()}
+									aria-label="Ảnh trước"
+									class="absolute left-2 top-1/2 -translate-y-1/2 flex h-8 w-8 items-center justify-center rounded-full bg-black/30 text-white backdrop-blur-sm transition-colors hover:bg-black/50"
+								>
+									<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7" />
+									</svg>
+								</button>
+							{/if}
+							<!-- Next photo arrow -->
+							{#if photoIndex < allPhotos.length - 1}
+								<button
+									onclick={() => photoEmbla?.scrollNext()}
+									aria-label="Ảnh tiếp theo"
+									class="absolute right-2 top-1/2 -translate-y-1/2 flex h-8 w-8 items-center justify-center rounded-full bg-black/30 text-white backdrop-blur-sm transition-colors hover:bg-black/50"
+								>
+									<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+									</svg>
+								</button>
+							{/if}
+							<!-- Dots -->
 							<div class="absolute bottom-2 left-1/2 flex -translate-x-1/2 gap-1.5">
 								{#each allPhotos as _, i}
 									<button
 										onclick={() => photoEmbla?.scrollTo(i)}
-										class="h-1.5 rounded-full transition-all {i === (photoEmbla?.selectedScrollSnap() ?? 0) ? 'w-4 bg-white' : 'w-1.5 bg-white/50'}"
+										class="h-1.5 rounded-full transition-all {i === photoIndex ? 'w-4 bg-white' : 'w-1.5 bg-white/50'}"
 										aria-label="Ảnh {i + 1}"
 									></button>
 								{/each}
@@ -277,7 +331,7 @@
 				</div>
 
 				<!-- Info -->
-				<div class="flex-1 min-h-0 overflow-y-auto p-5 sm:basis-[40%] sm:flex-none">
+				<div bind:this={infoEl} class="flex-1 min-h-0 overflow-y-auto p-5 sm:basis-[40%] sm:flex-none">
 					<h2 class="text-xl font-bold text-text">{currentCat.name}</h2>
 					<p class="mb-1 text-sm font-semibold text-primary">{currentCat.breed}</p>
 					{#if currentCat.location}

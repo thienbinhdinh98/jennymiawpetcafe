@@ -1,0 +1,18 @@
+{
+  "name": "Lubu",
+  "breed": "Mèo Cáo Somali",
+  "description": {
+    "vi": "Mèo cáo Somali được mệnh danh là \"tiến sĩ\" của loài mèo đấy! Lubu với màu lông đặc biệt như lửa, tính cách như một em bé đáng yêu mắt sẽ sáng lên khi thấy bạn cầm gói gà sấy đến chơi đấy 🫶🏻",
+    "en": ""
+  },
+  "avatar": "/cats/3cc3e93a-ffc2-4710-bac8-381ba898a133.webp",
+  "photos": [
+    "/cats/9ea74072-5b47-463e-94d4-ba24ebcb6482.webp",
+    "/cats/eaf4b19e-210a-4c09-aa95-5b8ed879f22c.webp",
+    "/cats/b649b70d-3f3e-4235-ac58-67da66f603af.webp",
+    "/cats/7d43afce-7470-4bac-b97d-aad2d4705d36.webp",
+    "/cats/a4a840de-b351-4a2e-ba83-488c4fbb225d.webp"
+  ],
+  "featured": true,
+  "location": "location-2"
+}
