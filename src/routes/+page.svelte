@@ -4,11 +4,20 @@
 	import CatSlider from '$lib/components/CatSlider.svelte';
 	import LocationCard from '$lib/components/LocationCard.svelte';
 	import CatDetailModal from '$lib/components/CatDetailModal.svelte';
+	import SocialIcon from '$lib/components/SocialIcon.svelte';
+	import PhotoLightbox from '$lib/components/PhotoLightbox.svelte';
+	import { PHONE, PHONE_HREF, SOCIALS } from '$lib/config';
+
+	interface CafePhoto {
+		src: string;
+		alt: { vi: string; en: string };
+	}
 
 	interface Props {
 		data: {
 			cats: Cat[];
 			locations: Location[];
+			cafePhotos: CafePhoto[];
 			lang: string;
 		};
 	}
@@ -24,6 +33,9 @@
 		modalStartIndex = index;
 		modalOpen = true;
 	}
+
+	let lightboxOpen = $state(false);
+	let lightboxIndex = $state(0);
 </script>
 
 <svelte:head>
@@ -54,7 +66,7 @@
 		</p>
 		<div class="flex flex-col justify-center gap-3 sm:flex-row">
 			<a
-				href="/gallery"
+				href="#cats"
 				class="rounded-full bg-primary px-8 py-3.5 font-semibold text-white shadow-md transition-all hover:-translate-y-0.5 hover:bg-primary-dark hover:shadow-lg"
 			>
 				{m.hero_cta_cats()} 🐱
@@ -112,6 +124,32 @@
 	</div>
 </section>
 
+<!-- Cafe Photos -->
+<section id="cafe-photos" class="py-20">
+	<div class="mx-auto max-w-6xl px-4">
+		<h2 class="mb-4 text-center text-3xl font-bold text-text sm:text-4xl">{m.cafe_photos_title()}</h2>
+		<p class="mx-auto mb-10 max-w-2xl text-center text-text-muted">{m.cafe_photos_subtitle()}</p>
+		<div class="columns-2 gap-3 md:columns-3 lg:columns-4">
+			{#each data.cafePhotos as photo, i}
+				<button
+					type="button"
+					onclick={() => { lightboxIndex = i; lightboxOpen = true; }}
+					class="mb-3 w-full overflow-hidden rounded-2xl bg-pink/20 break-inside-avoid cursor-pointer"
+				>
+					<img
+						src={photo.src}
+						alt={photo.alt[data.lang as 'vi' | 'en'] ?? photo.alt.vi}
+						class="w-full object-cover transition-transform duration-300 hover:scale-105"
+						loading="lazy"
+						onerror={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; ((e.currentTarget as HTMLImageElement).nextElementSibling as HTMLElement).style.display = 'flex'; }}
+					/>
+					<div class="hidden aspect-video items-center justify-center text-4xl text-text-muted/30">📷</div>
+				</button>
+			{/each}
+		</div>
+	</div>
+</section>
+
 <!-- Locations -->
 <section id="locations" class="py-20">
 	<div class="mx-auto max-w-6xl px-4">
@@ -126,11 +164,54 @@
 	</div>
 </section>
 
+<!-- Contact -->
+<section id="contact" class="bg-cream py-20">
+	<div class="mx-auto max-w-6xl px-4 text-center">
+		<h2 class="mb-4 text-3xl font-bold text-text sm:text-4xl">{m.contact_title()}</h2>
+		<p class="mx-auto mb-10 max-w-md text-text-muted">{m.contact_subtitle()}</p>
+
+		<a
+			href={PHONE_HREF}
+			class="mb-10 inline-flex items-center gap-2.5 rounded-full border border-primary/30 bg-white px-6 py-3 font-semibold text-primary shadow-sm transition-all hover:-translate-y-0.5 hover:bg-primary hover:text-white hover:shadow-md"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+			</svg>
+			{PHONE}
+		</a>
+
+		<div class="flex justify-center gap-4">
+			{#each SOCIALS as social}
+				<a
+					href={social.href}
+					target="_blank"
+					rel="noopener noreferrer"
+					aria-label={social.name}
+					class="flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-sm transition-all hover:-translate-y-0.5 hover:bg-primary hover:text-white hover:shadow-md text-text-muted"
+				>
+					<SocialIcon icon={social.icon} class="h-5 w-5" />
+				</a>
+			{/each}
+		</div>
+	</div>
+</section>
+
 <!-- Cat Detail Modal -->
 {#if modalOpen}
 	<CatDetailModal
 		cats={featuredCats}
+		locations={data.locations}
 		startIndex={modalStartIndex}
 		onClose={() => (modalOpen = false)}
+	/>
+{/if}
+
+<!-- Cafe Photo Lightbox -->
+{#if lightboxOpen}
+	<PhotoLightbox
+		photos={data.cafePhotos}
+		startIndex={lightboxIndex}
+		lang={data.lang}
+		onClose={() => (lightboxOpen = false)}
 	/>
 {/if}

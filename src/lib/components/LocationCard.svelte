@@ -42,7 +42,7 @@
 			</div>
 			<div class="flex items-center gap-2">
 				<span class="shrink-0">📞</span>
-				<a href={PHONE_HREF} class="hover:text-primary">{PHONE}</a>
+				<a href={PHONE_HREF} class="font-semibold text-primary underline underline-offset-2 hover:text-primary-dark">{PHONE}</a>
 			</div>
 		</div>
 

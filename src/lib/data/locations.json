@@ -6,12 +6,12 @@
 			"en": "Jennymiaw Branch 1"
 		},
 		"address": {
-			"vi": "Hà Nội (địa chỉ sẽ cập nhật)",
-			"en": "Hanoi (address to be updated)"
+			"vi": "1144 Đ. Láng, Láng Thượng, Láng, Hà Nội 11500, Vietnam",
+			"en": "1144 Lang Street, Lang Thượng, Láng, Hanoi 11500, Vietnam"
 		},
 		"hours": {
-			"vi": "8:00 - 22:00 hàng ngày",
-			"en": "8:00 AM - 10:00 PM daily"
+			"vi": "9:00 - 22:30 hàng ngày, thứ 2 13:00 - 22:30",
+			"en": "9:00 AM - 10:30 PM daily, Monday 1:00 PM - 10:30 PM"
 		},
 		"mapsUrl": "https://maps.app.goo.gl/S55RuPsrk94R7rW28",
 		"mapEmbedUrl": "https://maps.google.com/maps?q=21.0255174,105.7984388&z=17&output=embed"
@@ -23,12 +23,12 @@
 			"en": "Jennymiaw Branch 2"
 		},
 		"address": {
-			"vi": "Hà Nội (địa chỉ sẽ cập nhật)",
-			"en": "Hanoi (address to be updated)"
+			"vi": "86 P. Nguyễn Ngọc Nại, Phương Liệt, Hà Nội 11400, Vietnam",
+			"en": "86 Nguyen Ngoc Nai Street, Phuong Liet, Hanoi 11400, Vietnam"
 		},
 		"hours": {
-			"vi": "8:00 - 22:00 hàng ngày",
-			"en": "8:00 AM - 10:00 PM daily"
+			"vi": "9:00 - 22:30 hàng ngày",
+			"en": "9:00 AM - 10:30 PM daily"
 		},
 		"mapsUrl": "https://maps.app.goo.gl/gTBiwGj822Z5y5MB7",
 		"mapEmbedUrl": "https://maps.google.com/maps?q=20.9995659,105.8246477&z=17&output=embed"

@@ -39,6 +39,19 @@
 		"location": "location-2"
 	},
 	{
+		"id": "lorem",
+		"name": "Lorem",
+		"breed": "Test Cat",
+		"description": {
+			"vi": "Lorem là một bé mèo rất đặc biệt với tính cách vô cùng phong phú và đa dạng. Bé thích chạy nhảy khắp nơi vào buổi sáng, leo lên mọi thứ có thể leo được, và ngồi nhìn chằm chằm vào tường trong nhiều giờ đồng hồ mà không rõ lý do. Bé cũng rất thích ăn, đặc biệt là pate cá hồi và thỉnh thoảng trộm đồ ăn của các bé khác. Khách đến tiệm thường rất thích bé vì bé hay đến ngồi lên laptop hoặc sách của khách đúng lúc khách đang cần dùng nhất. Một bé mèo thực sự không thể đoán trước được.",
+			"en": "Lorem is a very special cat with an incredibly rich and diverse personality. In the mornings she loves to run and leap everywhere, climb anything climbable, and sit staring at the wall for hours for no apparent reason. She is also very food-motivated, particularly fond of salmon pâté, and occasionally steals snacks from the other cats. Guests adore her because she always chooses to sit directly on laptops or open books at the exact moment they are needed most. Truly an unpredictable cat."
+		},
+		"avatar": null,
+		"photos": [],
+		"featured": true,
+		"location": "location-1"
+	},
+	{
 		"id": "trung",
 		"name": "Trứng",
 		"breed": "Ragdoll",

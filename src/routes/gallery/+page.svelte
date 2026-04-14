@@ -1,11 +1,12 @@
 <script lang="ts">
 	import * as m from '$lib/paraglide/messages';
-	import type { Cat } from '$lib/types';
+	import type { Cat, Location } from '$lib/types';
 	import CatDetailModal from '$lib/components/CatDetailModal.svelte';
 
 	interface Props {
 		data: {
 			cats: Cat[];
+			locations: Location[];
 			lang: string;
 		};
 	}
@@ -71,6 +72,7 @@
 {#if modalOpen}
 	<CatDetailModal
 		cats={data.cats}
+		locations={data.locations}
 		startIndex={modalStartIndex}
 		onClose={() => (modalOpen = false)}
 	/>
