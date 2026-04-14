@@ -5,6 +5,8 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
+		"cms": "decap-server",
+		"dev:cms": "npm run cms & npm run dev",
 		"build": "wrangler types --check && vite build",
 		"preview": "wrangler pages dev .svelte-kit/cloudflare --port 4173",
 		"prepare": "svelte-kit sync || echo ''",
@@ -23,6 +25,7 @@
 		"@sveltejs/vite-plugin-svelte": "^7.0.0",
 		"@tailwindcss/vite": "^4.2.2",
 		"@types/node": "^24",
+		"decap-server": "^3.6.0",
 		"eslint": "^10.2.0",
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.17.0",

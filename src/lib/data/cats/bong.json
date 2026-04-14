@@ -1,0 +1,12 @@
+{
+  "name": "Bông",
+  "breed": "British Shorthair",
+  "description": {
+    "vi": "Bông là chàng mèo điềm tĩnh, quý phái. Bé có bộ lông xám xịt mềm mượt như nhung và đôi mắt tròn xoe màu vàng. Bông thích ngồi quan sát mọi người từ xa nhưng sẽ đến gần nếu bạn mời bé bằng đồ ăn vặt.",
+    "en": "Bông is a calm and dignified cat with luxuriously soft gray fur and big round amber eyes. He prefers observing from a distance but will approach if you offer him a treat."
+  },
+  "avatar": "/cats/bong/avatar.jpg",
+  "photos": [],
+  "featured": true,
+  "location": "location-1"
+}

@@ -119,7 +119,7 @@ jennymiawpetcafe/
 - Zalo deep link for mobile
 
 #### 6. Footer
-- Compact: cafe name, copyright, social icons
+- Compact: cafe name, copyright
 
 ### Cat Gallery (`/gallery`)
 
