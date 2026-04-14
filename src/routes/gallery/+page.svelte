@@ -23,11 +23,17 @@
 </script>
 
 <svelte:head>
-	<title>Các bé mèo | Tiệm cà phê mèo Jennymiaw</title>
-	<meta
-		name="description"
-		content="Gặp gỡ hơn 30 bé mèo đáng yêu tại Tiệm cà phê mèo Jennymiaw Hà Nội."
-	/>
+	<title>Các bé mèo | Tiệm cà phê mèo Jennymiaw Hà Nội</title>
+	<meta name="description" content="Gặp gỡ hơn 30 bé mèo đáng yêu tại Tiệm cà phê mèo Jennymiaw Hà Nội. Xem ảnh và tìm hiểu về từng bé mèo." />
+	<link rel="canonical" href="https://jennymiaw-catcafe.vn/gallery" />
+	<link rel="alternate" hreflang="vi" href="https://jennymiaw-catcafe.vn/gallery" />
+	<link rel="alternate" hreflang="en" href="https://jennymiaw-catcafe.vn/gallery" />
+
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://jennymiaw-catcafe.vn/gallery" />
+	<meta property="og:title" content="Các bé mèo | Tiệm cà phê mèo Jennymiaw" />
+	<meta property="og:description" content="Gặp gỡ hơn 30 bé mèo đáng yêu tại Jennymiaw Pet Cafe Hà Nội." />
+	<meta property="og:image" content="https://jennymiaw-catcafe.vn/og-image.jpg" />
 </svelte:head>
 
 <section class="py-16">

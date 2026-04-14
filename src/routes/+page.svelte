@@ -40,16 +40,81 @@
 
 <svelte:head>
 	<title>Tiệm cà phê mèo Jennymiaw | Jennymiaw Pet Cafe Hà Nội</title>
-	<meta
-		name="description"
-		content="Tiệm cà phê mèo Jennymiaw tại Hà Nội — thư giãn cùng hơn 30 bé mèo đáng yêu, thưởng thức đồ uống và snack không giới hạn."
-	/>
-	<meta property="og:title" content="Tiệm cà phê mèo Jennymiaw" />
-	<meta
-		property="og:description"
-		content="Vui chơi cùng hơn 30 bé mèo, thưởng thức đồ uống & snack không giới hạn tại Hà Nội."
-	/>
+	<meta name="description" content="Tiệm cà phê mèo Jennymiaw tại Hà Nội — thư giãn cùng hơn 30 bé mèo đáng yêu, thưởng thức đồ uống và snack không giới hạn." />
+	<link rel="canonical" href="https://jennymiaw-catcafe.vn/" />
+	<link rel="alternate" hreflang="vi" href="https://jennymiaw-catcafe.vn/" />
+	<link rel="alternate" hreflang="en" href="https://jennymiaw-catcafe.vn/" />
+
+	<!-- Open Graph -->
 	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://jennymiaw-catcafe.vn/" />
+	<meta property="og:title" content="Tiệm cà phê mèo Jennymiaw | Hà Nội" />
+	<meta property="og:description" content="Vui chơi cùng hơn 30 bé mèo, thưởng thức đồ uống & snack không giới hạn tại Hà Nội." />
+	<meta property="og:image" content="https://jennymiaw-catcafe.vn/og-image.jpg" />
+	<meta property="og:locale" content="vi_VN" />
+	<meta property="og:locale:alternate" content="en_US" />
+
+	<!-- Twitter / Zalo card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Tiệm cà phê mèo Jennymiaw" />
+	<meta name="twitter:description" content="Vui chơi cùng hơn 30 bé mèo tại Hà Nội." />
+	<meta name="twitter:image" content="https://jennymiaw-catcafe.vn/og-image.jpg" />
+
+	<!-- JSON-LD: LocalBusiness for both branches -->
+	{@html `<script type="application/ld+json">${JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "ItemList",
+		"itemListElement": [
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"item": {
+					"@type": "CafeOrCoffeeShop",
+					"name": "Tiệm cà phê mèo Jennymiaw - Chi nhánh 1",
+					"url": "https://jennymiaw-catcafe.vn/",
+					"telephone": "+84327041340",
+					"image": "https://jennymiaw-catcafe.vn/og-image.jpg",
+					"description": "Tiệm cà phê mèo tại Hà Nội — thư giãn cùng hơn 30 bé mèo đáng yêu.",
+					"address": {
+						"@type": "PostalAddress",
+						"streetAddress": "1144 Đường Láng",
+						"addressLocality": "Láng Thượng, Đống Đa",
+						"addressRegion": "Hà Nội",
+						"postalCode": "11500",
+						"addressCountry": "VN"
+					},
+					"geo": { "@type": "GeoCoordinates", "latitude": 21.0255174, "longitude": 105.7984388 },
+					"openingHours": ["Mo 13:00-22:30", "Tu-Su 09:00-22:30"],
+					"priceRange": "₫₫",
+					"servesCuisine": "Coffee, Snacks"
+				}
+			},
+			{
+				"@type": "ListItem",
+				"position": 2,
+				"item": {
+					"@type": "CafeOrCoffeeShop",
+					"name": "Tiệm cà phê mèo Jennymiaw - Chi nhánh 2",
+					"url": "https://jennymiaw-catcafe.vn/",
+					"telephone": "+84327041340",
+					"image": "https://jennymiaw-catcafe.vn/og-image.jpg",
+					"description": "Tiệm cà phê mèo tại Hà Nội — thư giãn cùng hơn 30 bé mèo đáng yêu.",
+					"address": {
+						"@type": "PostalAddress",
+						"streetAddress": "86 Phố Nguyễn Ngọc Nại",
+						"addressLocality": "Phương Liệt, Thanh Xuân",
+						"addressRegion": "Hà Nội",
+						"postalCode": "11400",
+						"addressCountry": "VN"
+					},
+					"geo": { "@type": "GeoCoordinates", "latitude": 20.9995659, "longitude": 105.8246477 },
+					"openingHours": ["Mo-Su 09:00-22:30"],
+					"priceRange": "₫₫",
+					"servesCuisine": "Coffee, Snacks"
+				}
+			}
+		]
+	})}</script>`}
 </svelte:head>
 
 <!-- Hero -->
