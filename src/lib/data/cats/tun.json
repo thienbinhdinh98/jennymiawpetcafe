@@ -1,0 +1,17 @@
+{
+  "name": "Tũn",
+  "breed": "British Shorthair",
+  "description": {
+    "vi": "Tũn có màu silver points siêu lạ, không đen dần đi như mèo xiêm, chỉ hơi nhọ nhọ thôi 🤣 Sở hữu gương mặt \"khó ở\" nhưng thực ra lại là một em bé đáng yêu, Tũn chỉ không thích nếu bạn đột ngột chạm vào bụng hay đuôi thôi nè 🫶🏻",
+    "en": "Tũn has a very unique silver point coloring—unlike Siamese cats, his coat doesn’t gradually darken, it’s just slightly smudged 🤣 He may have a “grumpy-looking” face, but he’s actually a very sweet little one. Tũn just doesn’t like it when you suddenly touch his belly or tail 🫶🏻"
+  },
+  "avatar": "/cats/61e92973-6459-4fe8-960f-3dc1b572a6fc.webp",
+  "photos": [
+    "/cats/6960bc9a-087a-4ed4-a4ae-475c29d53af7.webp",
+    "/cats/e85c4c22-1853-4b2d-81f2-e1f54c4db939.webp",
+    "/cats/cf749b93-07cd-4aab-9a84-acd59390c6d0.webp",
+    "/cats/e05cd9db-d10f-4b8c-9c70-24142a400623.webp"
+  ],
+  "featured": true,
+  "location": "location-1"
+}

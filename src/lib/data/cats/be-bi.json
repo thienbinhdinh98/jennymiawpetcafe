@@ -1,0 +1,19 @@
+{
+  "name": "Bé Bi",
+  "breed": "Mèo Ba Tư",
+  "description": {
+    "vi": "Bé Bi với khuôn mặt tròn nọng, mặt tịt, mắt díu díu cùng bộ lông vàng cam gấu bông dễ thương, ngoan hiền cực phẩm. Nhìn bé nằm ngủ bên cạnh thôi cũng thấy vui rồi!",
+    "en": "Bi has a chubby round face, a flat nose, sleepy eyes, and an adorable teddy-bear-like golden-orange coat. Gentle and well-behaved, just watching him sleep beside you is enough to make you smile!"
+  },
+  "avatar": "/cats/01467bd1-4daa-4de2-8e0a-0232ca7eac7b.webp",
+  "photos": [
+    "/cats/dbbcbdfc-1ef9-47b7-8900-2f793c7208b4.webp",
+    "/cats/b20bd337-0152-48b1-a1f1-579d51f172ae.webp",
+    "/cats/6746356f-b82c-4edd-a930-d9b4987b77fb.webp",
+    "/cats/1b06edb3-6ddc-431d-bb01-add5ed392d69.webp",
+    "/cats/bc5bfe7d-e17f-4a51-bd2f-21cdd3a1006a.webp",
+    "/cats/de66684a-9e41-4287-9d50-55f564b543e3.webp"
+  ],
+  "featured": true,
+  "location": "location-1"
+}

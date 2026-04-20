@@ -1,0 +1,16 @@
+{
+  "name": "Coco",
+  "breed": "British Longhair",
+  "description": {
+    "vi": "Một em bé lông trắng dài kèm đôi mắt 2 màu đặc biệt! Coco khá cá tính, bạn có thể vuốt ve nhẹ nhàng, tránh trêu chọc và nghịch đuôi/bụng nhé, Coco sẽ hoá \"mèo quạu\" đó 🥹",
+    "en": "A fluffy white long-haired baby with unique heterochromatic eyes! Coco has quite a personality—you can gently pet her, but please avoid teasing or touching her tail/belly, or she might turn into a grumpy cat 🥹"
+  },
+  "avatar": "/cats/1b41ffd2-2f39-4d5d-a3e5-d82e6e303036.webp",
+  "photos": [
+    "/cats/3078d092-14f2-454d-8a65-88dd35de07fc.webp",
+    "/cats/47b36d0c-aea6-495e-8e1a-ca65d8bf5323.webp",
+    "/cats/5e245f0a-5bfe-45a9-ac12-2576ba9481e8.webp"
+  ],
+  "featured": true,
+  "location": "location-1"
+}

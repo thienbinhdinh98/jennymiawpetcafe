@@ -1,0 +1,18 @@
+{
+  "name": "Xù",
+  "breed": "British Longhair",
+  "description": {
+    "vi": "Xù Tổng Tài - chú mèo anh xám xanh lông dài này là điển hình của một tổng tài ấm áp! Bạn có thể ôm nựng, vuốt ve, cho bạn ấy món ăn yêu thích là gà sấy, Xù sẽ yêu bạn 🥳 Xù đặc - biệt - thích - cỏ - mèo 🫢",
+    "en": "Xù “The Boss” — this blue-gray British Longhair cat is the perfect example of a warm-hearted boss! You can cuddle and pet him, and if you give him his favorite treat—dried chicken—Xu will love you 🥳 Xu especially loves catnip 🫢"
+  },
+  "avatar": "/cats/ec2022e5-9cf7-40e2-9920-19aba169c942.webp",
+  "photos": [
+    "/cats/bc362f22-1110-4e6d-835c-45c914d91c72.webp",
+    "/cats/190c7f9a-b5d1-41d4-a9ba-a30ab25000e3.webp",
+    "/cats/65c95cc7-3de6-41a7-9771-50c38146b537.webp",
+    "/cats/5bb84b48-f638-454e-bc4a-7e1733e5ff73.webp",
+    "/cats/06b57ad2-cc30-46de-84e1-629211e01d45.webp"
+  ],
+  "featured": true,
+  "location": "location-1"
+}

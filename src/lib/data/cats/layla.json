@@ -1,0 +1,16 @@
+{
+  "name": "Layla",
+  "breed": "British Shorthair",
+  "description": {
+    "vi": "Em bé mèo siêu dịu dàng, nhìn mặt tội nghiệp như đang xin xỏ bạn điều gì đó 🥺 Thực ra là chỉ cố gắng giả vờ tội nghiệp để xin gà sấy thôi 🤣",
+    "en": "A super gentle little cat with an adorable, pitiful face—as if asking you for something 🥺 In reality, it’s just pretending to look pitiful to beg for some dried chicken 🤣"
+  },
+  "avatar": "/cats/71035a41-d1f3-446c-886d-2cef9f02ab78.webp",
+  "photos": [
+    "/cats/7ece1b66-6c45-4208-9cf0-c166cfd8100d.webp",
+    "/cats/b69358b0-fdb2-4041-b425-b9ae1943ca55.webp",
+    "/cats/534d743c-1f09-4282-b5b1-c97e87ef019b.webp"
+  ],
+  "featured": true,
+  "location": "location-1"
+}

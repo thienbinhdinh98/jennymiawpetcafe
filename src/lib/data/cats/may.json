@@ -1,0 +1,16 @@
+{
+  "name": "Mây",
+  "breed": "British Shorthair",
+  "description": {
+    "vi": "Mây Đen - một em bé siêu nghị lực. Em bé từng bị gbc, từng rách da khắp người do tiêm nhiều quá bị áp xe khâu đi khâu lại 🥺 Rồi em bé bị nấm, bị viêm da mãn tính, bị tắc tiểu suy thận,.. Nhưng sau tất cả những cố gắng của chúng mình và em, em Mây vẫn sống, vẫn vui vẻ 🫶🏻 yêu em",
+    "en": "Mây Đen – a little fighter with incredible resilience. He once suffered from panleukopenia, had skin tears all over his body due to repeated injections that led to abscesses and multiple stitches 🥺 He also went through fungal infections, chronic dermatitis, urinary blockage, and kidney failure… But after all the efforts from both him and us, Mây is still here, still living happily 🫶🏻 so much love for him."
+  },
+  "avatar": "/cats/9df50125-c33f-46e8-827b-adafd40902b1.webp",
+  "photos": [
+    "/cats/cf859a64-ed70-4a61-b72a-141862cbd755.webp",
+    "/cats/2973ea46-de96-488d-b3ca-a2e018413587.webp",
+    "/cats/9b842f41-64cc-44fc-85fc-4a777e61799f.webp"
+  ],
+  "featured": true,
+  "location": "location-1"
+}

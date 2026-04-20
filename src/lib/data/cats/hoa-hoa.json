@@ -1,0 +1,16 @@
+{
+  "name": "Hoa Hoa",
+  "breed": "British Longhair",
+  "description": {
+    "vi": "Hoa Hoa - Một em mèo cam nhưng không hề nghịch ngợm phá phách như những chú mèo cam tai tiếng khác 🤣 Em rất ngoan, vì là mèo lai ta nên người thì tròn nhưng mặt khá \"yên xe đạp\" 😌 Không sao, vẫn rất đáng yêuu",
+    "en": "Hoa Hoa – an orange cat who isn’t mischievous or naughty like other notoriously chaotic orange cats 🤣 Very well-behaved, and as a mixed local breed, he has a chubby body but a slightly “flat, bike-seat-like” face 😌 It’s okay though—still absolutely adorable!"
+  },
+  "avatar": "/cats/a65bd939-2b90-4dce-9d97-512c63558876.webp",
+  "photos": [
+    "/cats/9d00b956-8491-4f8b-bc20-bd15672253e6.webp",
+    "/cats/dc473167-23be-4b23-8420-dd3d324488a6.webp",
+    "/cats/e0445c48-1206-49e8-8717-316fe2d7521d.webp"
+  ],
+  "featured": true,
+  "location": "location-1"
+}

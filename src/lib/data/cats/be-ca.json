@@ -1,0 +1,16 @@
+{
+  "name": "Bé Cá",
+  "breed": "British Longhair",
+  "description": {
+    "vi": "Cá có màu lông xám - trắng cùng khuôn mặt tròn tròn dễ thương, thích nằm lên bàn chơi cùng bạn 😙 Cá dịu dàng, thích được vuốt ve. Hầu hết mèo không thích bị ôm đột ngột, nên hãy nhẹ nhàng với các em nhé 🥰",
+    "en": "Cá has a gray-and-white coat and an adorable round face, and loves lying on the table to keep you company 😙 Cá is gentle and enjoys being petted. Most cats don’t like being picked up suddenly, so please be gentle with them 🥰"
+  },
+  "avatar": "/cats/bb4bc6a4-d238-4112-a77e-56cc8ca419b2.webp",
+  "photos": [
+    "/cats/194cf3da-14a7-4a86-8549-7d9d272b3b97.webp",
+    "/cats/a47fd536-d568-4642-81cb-ca8c74ea9750.webp",
+    "/cats/b080ad57-36ca-42e7-929f-123c356a7757.webp"
+  ],
+  "featured": true,
+  "location": "location-1"
+}

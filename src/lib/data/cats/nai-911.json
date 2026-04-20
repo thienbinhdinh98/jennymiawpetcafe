@@ -1,0 +1,15 @@
+{
+  "name": "Nai (911)",
+  "breed": "Mainecoon",
+  "description": {
+    "vi": "Một bé Maine Coon (mèo khổng lồ) siêu ngầu, với đôi mắt to tròn đáng yêu 🫶🏻 Nai chưa đến 1 tuổi nhưng đã to ngang các anh chị. Nai rất thích chơi cần câu mèo, thích được vuốt ve và đặc biệt mê gà",
+    "en": "A super cool Maine Coon (a giant cat) with big, adorable round eyes 🫶🏻 Nai is not even 1 year old yet, but already as big as the older cats. Nai loves playing with a cat teaser wand, enjoys being petted, and especially loves dried chicken treats!"
+  },
+  "avatar": "/cats/64e9328e-9a66-4410-bb63-c2fdbf1927f2.webp",
+  "photos": [
+    "/cats/a50d436e-fb2c-4e0e-b276-5562b7e5b24e.webp",
+    "/cats/d67ba69e-95de-4e3d-af1a-63caa3e0ecb7.webp"
+  ],
+  "featured": true,
+  "location": "location-1"
+}

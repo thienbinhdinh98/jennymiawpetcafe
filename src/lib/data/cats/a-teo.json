@@ -1,0 +1,16 @@
+{
+  "name": "A Tèo",
+  "breed": "British Longhair",
+  "description": {
+    "vi": "A Tèo có bộ lông xám mềm bông, cũng là một em bé khó nuôi 😆 Hồi bé thì nhảy từ trên bậc thềm xuống đau chân, lớn hơn một chút thì fip. Nhưng chúng mình yêu em, cố giữ em lại bằng tình yêu. Và em bé A Tèo đã làm được 🫶🏻",
+    "en": "A Tèo has soft, fluffy gray fur and is quite a high-maintenance little one 😆 When he was young, he hurt his leg jumping down from the steps, and a bit later, he had Feline Infectious Peritonitis (FIP). But we love him deeply and did everything we could to keep him with us through love. And little A Tèo made it 🫶🏻"
+  },
+  "avatar": "/cats/e7d036a4-3195-439d-8027-fdc35a258836.webp",
+  "photos": [
+    "/cats/e8a2c52b-4a09-4adb-b24b-4bdea8671a14.webp",
+    "/cats/ccfad17e-5c09-4ef1-8e4d-c92ce157c3af.webp",
+    "/cats/87ee8607-49ce-4c37-bd85-04e67dd47d22.webp"
+  ],
+  "featured": true,
+  "location": "location-1"
+}

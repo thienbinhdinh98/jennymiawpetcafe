@@ -1,0 +1,17 @@
+{
+  "name": "Choco",
+  "breed": "British Shorthair",
+  "description": {
+    "vi": "Bé Choco với dáng ngồi \"thương hiệu\" bầy hầy cùng màu lông đặc biệt sẽ gây ấn tượng với bạn ngay từ lần gặp đầu tiên! Choco ngọt ngào và dễ thương như tên của bé vậy. Bé có thể hơi nhút nhát lúc ban đầu, nhưng bạn vuốt ve nhẹ nhàng, bé sẽ ngồi lại cùng bạn 🫶🏻",
+    "en": "Choco, with his signature “slouchy” sitting pose and unique fur color, will impress you from the very first meeting! He’s as sweet and adorable as his name suggests. He may be a little shy at first, but if you gently pet him, he’ll stay and sit with you"
+  },
+  "avatar": "/cats/4b928ade-54fe-4ea5-b197-f0b205247d5a.webp",
+  "photos": [
+    "/cats/0d817aa4-754e-4b4c-abf1-8ede1bc319ff.webp",
+    "/cats/4d298581-c4f1-4818-a626-b8e09a0034cd.webp",
+    "/cats/7a162ed8-8c2f-4769-9616-8c3369ef2fab.webp",
+    "/cats/9e57b906-c28e-4aea-86ce-7bc635a9d19b.webp"
+  ],
+  "featured": true,
+  "location": "location-2"
+}

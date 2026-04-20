@@ -1,0 +1,15 @@
+{
+  "name": "Lucci",
+  "breed": "Ragdoll",
+  "description": {
+    "vi": "Lucci là công chúa kiêu kì số 1 JennyMiaw 💕 Đẹp, chảnh, nhưng sẽ nằm trên bàn im lặng đồng hành cùng bạn lúc bạn làm việc, hay chơi boardgame. Vậy là quá đủ cho sự xinh đẹp này rồi đúng không? 🫢",
+    "en": "Lucci is the number one elegant princess of JennyMiaw 💕 Beautiful and a bit sassy, yet she’ll quietly lie on the table and keep you company while you work or play board games. That’s more than enough for such beauty, right? 🫢"
+  },
+  "avatar": "/cats/6c0733c3-81cd-480e-9f1b-e3f33faecee5.webp",
+  "photos": [
+    "/cats/309e39a6-4748-49b8-b504-cea5ada81752.webp",
+    "/cats/4ebc48be-c501-4915-9bee-8c2fe155cdeb.webp"
+  ],
+  "featured": true,
+  "location": "location-1"
+}

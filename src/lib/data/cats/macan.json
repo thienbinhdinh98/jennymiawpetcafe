@@ -1,0 +1,18 @@
+{
+  "name": "Macan",
+  "breed": "Mainecoon",
+  "description": {
+    "vi": "Một chú mèo siêu ngầu, siêu bé bự, siêu đáng yêuuu 🫶🏻 Dù gương mặt rất tổng tài nhưng em bé là con gái đó ạ 😆 Dù bề ngoài to lớn, nhưng tâm hồn mỏng manh cần được yêu thương. Bé rất thích được vuốt ve, ăn gà sấy và chơi cần câu mèo 😼",
+    "en": "An incredibly cool, adorably chubby and super cute kitty 🫶🏻 Even though she has a boss-like face, she’s actually a little girl 😆 Despite her big appearance, she has a sensitive soul that needs lots of love. She loves being petted, eating dried chicken, and playing with a cat teaser 😼"
+  },
+  "avatar": "/cats/9fc453d3-350d-489e-8f48-b9d08e724811.webp",
+  "photos": [
+    "/cats/23a32de1-90f2-42e0-98c5-d53fe9cb6bf0.webp",
+    "/cats/63804d34-e4dd-4c7c-b3e1-facf7e5b7a6e.webp",
+    "/cats/64247af6-38f6-4015-8c90-b3e4612256b9.webp",
+    "/cats/4d88b46d-1cc5-45cb-8807-71dbdf8c1659.webp",
+    "/cats/4891bd04-f59c-4c5a-9f50-7b1bbaa5e756.webp"
+  ],
+  "featured": true,
+  "location": "location-2"
+}

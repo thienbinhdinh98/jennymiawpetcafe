@@ -1,0 +1,18 @@
+{
+  "name": "Bánh Mì",
+  "breed": "Munchkin",
+  "description": {
+    "vi": "Bánh Mì là em bé chân ngắn siêu đáng iu 🫶🏻 Embe thích pate, ham ăn ham ngủ, thích chơi cần câu mèo và những quả bóng. Bánh Mì hay ngủ trong hốc bàn, đến JennyMiaw bạn hãy tìm thử nhé!",
+    "en": "Bánh Mì is an adorable short-legged little kitty 🫶🏻 He loves pâté, enjoys eating and sleeping, and likes playing with feather wand toys and balls. Bánh Mì often sleeps in desk cubbies—when you come to JennyMiaw, try to find him!"
+  },
+  "avatar": "/cats/7e96865e-ff54-4b76-870f-69af2ab91210.webp",
+  "photos": [
+    "/cats/4deb986b-bfa4-4929-9125-fa493704aa8b.webp",
+    "/cats/e0daf410-aa81-4fd4-9a35-835090433dc4.webp",
+    "/cats/c8c7b4a4-91db-4af7-b198-74648dc3d72e.webp",
+    "/cats/78189fbb-4a9a-4936-a2a1-661bbc58b8eb.webp",
+    "/cats/2a4ad168-5475-403e-b7ce-9949d9d1cb7e.webp"
+  ],
+  "featured": true,
+  "location": "location-2"
+}

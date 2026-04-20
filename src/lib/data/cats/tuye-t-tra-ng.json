@@ -1,0 +1,18 @@
+{
+  "name": "Tuyết Trắng",
+  "breed": "British Shorthair",
+  "description": {
+    "vi": "Tuyết - bộ lông trắng tinh cùng đôi mắt xanh biếc tuyệt đẹp 😍 Cô ấy là một chú mèo thân thiện nhưng kiêu kì, có thể vuốt ve và cảm nhận trái tim tan chảy khi Tuyết dụi vào lòng bàn tay bạn 🐾",
+    "en": "Tuyet — with her pure white coat and stunning blue eyes 😍 She is a friendly yet elegant cat. You can gently pet her and feel your heart melt when Tuyet nuzzles into your hand 🐾"
+  },
+  "avatar": "/cats/bd25804a-f166-46fd-874c-8de719ebd6a2.webp",
+  "photos": [
+    "/cats/24758b17-2312-411d-9752-61b9c1169962.webp",
+    "/cats/d5487e8a-2729-4401-98ec-edfa2ab25e1c.webp",
+    "/cats/d1545d45-a6ad-4994-b447-73f78c3beed0.webp",
+    "/cats/ffecde65-a94f-4fbe-ad09-7c8b07bbb70f.webp",
+    "/cats/5079db59-035d-456f-8c4b-6cd2fa1cbd4d.webp"
+  ],
+  "featured": true,
+  "location": "location-2"
+}

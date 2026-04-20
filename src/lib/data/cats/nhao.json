@@ -1,0 +1,17 @@
+{
+  "name": "Nháo",
+  "breed": "British Shorthair",
+  "description": {
+    "vi": "Nháo là một bé mèo thú vị, có khách thì bảo Nháo nền nã trầm tính dịu dàng, có khách thì bảo Nháo quá nghịch 😆 Nháo thích chơi đá bóng, cũng thích ngồi ở cửa hóng khách. Là một chú mèo rất tình cảm, mềm mại, dịu dàng 🫶🏻",
+    "en": "Nháo is a very interesting cat—some guests say he’s calm, gentle, and well-behaved, while others think he’s super playful 😆 He loves playing with balls and also enjoys sitting by the door watching people come in. He’s a very affectionate, soft, and gentle kitty 🫶🏻"
+  },
+  "avatar": "/cats/0921f8d1-70a1-4fd2-b754-ed19abd10f94.webp",
+  "photos": [
+    "/cats/5ab94d30-670a-46f2-8a69-20d90d385b94.webp",
+    "/cats/20401379-4c4c-4c62-a022-fd639d0546ca.webp",
+    "/cats/dc0a1f24-de0e-4bc4-8b24-883bcb8792cc.webp",
+    "/cats/f932dac1-d03d-4be9-9974-4b9ae10077f3.webp"
+  ],
+  "featured": true,
+  "location": "location-2"
+}

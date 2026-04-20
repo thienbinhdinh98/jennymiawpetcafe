@@ -1,0 +1,17 @@
+{
+  "name": "Đô Đô",
+  "breed": "Golden cat",
+  "description": {
+    "vi": "Đô Đô - anh chàng mang vẻ đẹp vừa châu âu vừa châu á 🤣 Hồi bé hay bị trêu là mặt yên xe đạp, giờ lớn lên dậy thì thành công, siêu đẹp trai, to cao, đặc biệt dịu dàng 😎 Đô Đô cho bế, dù hơi nặng cân nhưng vẫn iu 🫢",
+    "en": "Đô Đô is a handsome boy with a unique mix of European and Asian looks 🤣 When he was little, people used to tease him for having a “bicycle seat face,” but he’s had quite the glow-up—now he’s super handsome, big, tall, and especially gentle 😎 Đô Đô lets you carry him; even though he’s a bit chubby, he’s still absolutely lovable 🫢"
+  },
+  "avatar": "/cats/c3099595-f55c-4cd8-a48a-38bbaad2668b.webp",
+  "photos": [
+    "/cats/200c38e6-ae05-4b24-9a21-75659f2b48db.webp",
+    "/cats/c1df438b-324a-4c30-8e7c-30f26148f566.webp",
+    "/cats/dbf36c7b-c269-4a82-960c-2fe36462bdf5.webp",
+    "/cats/3fab584d-0ada-449a-939b-caa653686cd6.webp"
+  ],
+  "featured": true,
+  "location": "location-2"
+}
