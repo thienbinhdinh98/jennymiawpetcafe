@@ -11,4 +11,7 @@ export default defineConfig({
 		sveltekit(),
 		paraglideVitePlugin({ project: './project.inlang', outdir: './src/lib/paraglide' })
 	],
+	ssr: {
+		external: ['sharp']
+	}
 });
