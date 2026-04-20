@@ -10,7 +10,6 @@
 
 	interface CafePhoto {
 		src: string;
-		alt: { vi: string; en: string };
 	}
 
 	interface Props {
@@ -203,7 +202,7 @@
 				>
 					<img
 						src={photo.src}
-						alt={photo.alt[data.lang as 'vi' | 'en'] ?? photo.alt.vi}
+						alt=""
 						class="w-full object-cover transition-transform duration-300 hover:scale-105"
 						loading="lazy"
 						onerror={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; ((e.currentTarget as HTMLImageElement).nextElementSibling as HTMLElement).style.display = 'flex'; }}

@@ -1,10 +1,10 @@
 [
-	{ "src": "/cafe/1.jpg", "alt": { "vi": "Không gian quán", "en": "Cafe interior" } },
-	{ "src": "/cafe/2.jpg", "alt": { "vi": "Khu vui chơi với mèo", "en": "Cat play area" } },
-	{ "src": "/cafe/3.jpg", "alt": { "vi": "Góc ngồi ấm cúng", "en": "Cozy seating area" } },
-	{ "src": "/cafe/4.jpg", "alt": { "vi": "Đồ uống và snack", "en": "Drinks and snacks" } },
-	{ "src": "/cafe/5.jpg", "alt": { "vi": "Không gian trang trí", "en": "Decorated space" } },
-	{ "src": "/cafe/6.jpg", "alt": { "vi": "Góc check-in", "en": "Photo spot" } },
-	{ "src": "/cafe/7.jpg", "alt": { "vi": "Khu vực nghỉ ngơi", "en": "Relaxation area" } },
-	{ "src": "/cafe/8.jpg", "alt": { "vi": "Không gian chung", "en": "Common area" } }
+	{ "src": "/cafe/1.webp" },
+	{ "src": "/cafe/2.webp" },
+	{ "src": "/cafe/3.webp" },
+	{ "src": "/cafe/4.webp" },
+	{ "src": "/cafe/5.webp" },
+	{ "src": "/cafe/6.webp" },
+	{ "src": "/cafe/7.webp" },
+	{ "src": "/cafe/8.webp" }
 ]
