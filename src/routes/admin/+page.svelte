@@ -15,10 +15,10 @@
 
 <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
 	{#each data.cats as cat}
-		<div class="overflow-hidden rounded-2xl bg-white shadow-sm">
+		<div class="overflow-hidden rounded-2xl bg-white shadow-sm {cat.hidden ? 'opacity-60' : ''}">
 			<div class="aspect-square overflow-hidden bg-pink/20">
 				{#if cat.avatar}
-					<img src={cat.avatar} alt={cat.name} class="h-full w-full object-cover" />
+					<img src={cat.avatar} alt={cat.name} class="h-full w-full object-cover {cat.hidden ? 'grayscale' : ''}" />
 				{:else}
 					<div class="flex h-full w-full items-center justify-center text-5xl">🐱</div>
 				{/if}
@@ -26,9 +26,14 @@
 			<div class="p-4">
 				<p class="font-bold text-text">{cat.name}</p>
 				<p class="text-sm text-text-muted">{cat.breed}</p>
-				{#if cat.featured}
-					<span class="mt-1 inline-block rounded-full bg-primary/10 px-2 py-0.5 text-xs font-semibold text-primary">Trang chủ</span>
-				{/if}
+				<div class="mt-1 flex flex-wrap gap-1">
+					{#if cat.featured}
+						<span class="inline-block rounded-full bg-primary/10 px-2 py-0.5 text-xs font-semibold text-primary">Trang chủ</span>
+					{/if}
+					{#if cat.hidden}
+						<span class="inline-block rounded-full bg-text/10 px-2 py-0.5 text-xs font-semibold text-text-muted">Đã ẩn</span>
+					{/if}
+				</div>
 				<div class="mt-3 flex gap-2">
 					<a
 						href="/admin/cat/{cat.id}"

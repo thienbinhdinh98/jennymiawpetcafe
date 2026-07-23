@@ -34,6 +34,7 @@ async function buildCatData(request: Request, params: { id: string }) {
 		avatar,
 		photos,
 		featured: data.get('featured') === 'on',
+		hidden: data.get('hidden') === 'on',
 		location: (data.get('location') as string) ?? 'location-1'
 	};
 

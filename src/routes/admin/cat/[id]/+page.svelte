@@ -133,6 +133,12 @@
 					<span class="text-sm font-semibold text-text">Hiển thị trên trang chủ</span>
 				</label>
 			</div>
+			<div class="flex items-end pb-1">
+				<label class="flex items-center gap-2 cursor-pointer">
+					<input type="checkbox" name="hidden" checked={cat?.hidden ?? false} class="h-4 w-4 accent-primary" />
+					<span class="text-sm font-semibold text-text">Ẩn khỏi trang web</span>
+				</label>
+			</div>
 		</div>
 	</div>
 

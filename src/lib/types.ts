@@ -11,6 +11,8 @@ export interface Cat {
 	avatar: string;
 	photos: string[];
 	featured: boolean;
+	/** When true, the cat is kept in the data but not shown on the public site. */
+	hidden?: boolean;
 	location: string;
 }
 

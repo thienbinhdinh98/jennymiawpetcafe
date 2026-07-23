@@ -11,4 +11,5 @@ export const cats: Cat[] = Object.entries(catModules)
 		const id = path.split('/').pop()!.replace('.json', '');
 		return { id, ...mod.default };
 	})
+	.filter((cat) => !cat.hidden) // hidden cats stay in the data but off the public site
 	.sort((a, b) => a.name.localeCompare(b.name, 'vi'));
