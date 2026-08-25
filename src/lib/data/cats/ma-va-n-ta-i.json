@@ -1,0 +1,17 @@
+{
+  "name": "Mã Văn Tài",
+  "breed": "Bengal",
+  "description": {
+    "vi": "Mã Văn Tài - đẹp trai như tên, nhưng nghịch & leo trèo parkour khắp nhà không ai bằng. Nếu thấy nước đổ ra từ bình nước của mèo, xin hãy gọi nhân viên lên lau vì MVT n thích nghịch nước, ngày nào cũng phải khều nghịch bát nước 7749 lượt mới chịu được 😴",
+    "en": "Mã Văn Tài — handsome, just like his name, but when it comes to mischief and parkour around the house, no one can beat him! 😹\r\n\r\nIf you see water spilled around the cats’ water bowl, please call a staff member to clean it up. MVT absolutely loves playing with water — every single day, he has to paw at and mess around with his water bowl 7749 times before he’s satisfied. 😴"
+  },
+  "avatar": "/cats/00099f24-cbca-455d-a723-e24500ed3c24.webp",
+  "photos": [
+    "/cats/68fc7e0e-b525-4456-b82f-5cf3bdd01977.webp",
+    "/cats/9a8f2912-9980-49c0-9e7a-156b2892b2be.webp",
+    "/cats/5ee46073-32b7-435c-b2b1-1a45cceafe5c.webp"
+  ],
+  "featured": true,
+  "hidden": false,
+  "location": "location-1"
+}
