@@ -1,0 +1,17 @@
+{
+  "name": "Lộc",
+  "breed": "Golden",
+  "description": {
+    "vi": "Lộc trong Tài Lộc (Tài là con bengal nhảy khắp nhà đó), Lộc so với mấy bạn golden khác thì màu lông, mặt sắc nét hơn, Trứng thì màu nhạt sáng hơn, còn Xoài thì màu xám hơn 👌🏻",
+    "en": "Lộc gets his name from Tài Lộc (“luck and prosperity”) — Tài is the Bengal who’s always jumping all over the house! 😂\r\n\r\nCompared to the other Golden cats, Lộc has a deeper coat color and more defined facial features. Trứng has a lighter, brighter coat, while Xoài has a slightly more grayish tone. 👌🏻"
+  },
+  "avatar": "/cats/78cbe85e-60e0-4c43-8df2-a5380ce12b4b.webp",
+  "photos": [
+    "/cats/947e3eba-9860-4cfd-a0d4-17fe09a98afb.webp",
+    "/cats/7b34ea96-7218-43ef-83ec-16268b7d94d2.webp",
+    "/cats/31f1a4cb-ee10-4c68-b330-14a20e01a6e6.webp"
+  ],
+  "featured": true,
+  "hidden": false,
+  "location": "location-1"
+}
