@@ -1,0 +1,18 @@
+{
+  "name": "Tuxedo",
+  "breed": "British Shorthair",
+  "description": {
+    "vi": "Tuxedo màu tuxedo 🤵 Là một con mều còn \"oái oăm\" hơn cả mèo cam trong truyền thuyết, Tuxedo có thể lộn mèo, chạy ầm ầm quanh nhà, cũng có thể nằm ngủ cả chiều ra vẻ ngoan ngoãn 😴 Gương mặt giải trí bậc nhất JennyMiaw\r\nThành tích nổi bật: Đục tường cs1 chui vào trong sàn ngủ, gọi nhất quyết không lên 😀",
+    "en": "Tuxedo — a tuxedo-colored tuxedo cat! 🤵 — is even more unpredictable than the legendary orange cat. 😂 He can be doing somersaults and zooming around the house like a maniac one minute, then spend the entire afternoon napping and pretending to be the sweetest, most well-behaved kitty. 😴\r\n\r\nWith one of the most entertaining faces at JennyMiaw, Tuxedo is basically a walking meme. 🤣\r\nNotable achievement: Drilled through the wall at Branch 1, crawled underneath the wooden flooring, and decided to take a nap down there. Would absolutely NOT come out when called. 😀"
+  },
+  "avatar": "/cats/98f2ca4f-8f98-4362-97db-efc468b86e70.webp",
+  "photos": [
+    "/cats/86846c1e-d8e8-4be2-a310-f9fd0ce70977.webp",
+    "/cats/d3dda659-d48c-46ba-94a2-7aed0678176c.webp",
+    "/cats/f8f3abda-2fe7-41f2-93dc-96e17ef0094f.webp",
+    "/cats/b63b86ff-5ca5-46df-b391-f080c0f30a9b.webp"
+  ],
+  "featured": true,
+  "hidden": false,
+  "location": "location-2"
+}
