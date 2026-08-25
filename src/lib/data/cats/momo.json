@@ -1,0 +1,17 @@
+{
+  "name": "Momo",
+  "breed": "Lùn Lông Ngắn (Munchkin Shorthair)",
+  "description": {
+    "vi": "Momo là một embe dễ thương quấn người, hay chạy theo khách chơi. Chơi với các bạn meo khác cũng hay nhường bạn. Qua JennyMiaw cs Láng để chơi với Momo nha 🫶🏻",
+    "en": "Momo is an adorable, affectionate little girl who loves being around people and often runs after guests to play. She’s also very sweet with the other cats and usually lets them have their way when they play together. 🥹💕\r\n\r\nCome visit JennyMiaw Láng and spend some time playing with Momo! 🫶🏻"
+  },
+  "avatar": "/cats/5fdecff6-5dc0-4441-b12a-7dd49a99e674.webp",
+  "photos": [
+    "/cats/fed287bf-815e-4277-b1eb-7708759ff8f0.webp",
+    "/cats/c969890b-4011-4f51-93a3-c2d6f82a9bd9.webp",
+    "/cats/30bfd883-4968-4e8f-b724-452f66423922.webp"
+  ],
+  "featured": true,
+  "hidden": false,
+  "location": "location-1"
+}
